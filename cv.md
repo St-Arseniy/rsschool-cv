@@ -1,4 +1,3 @@
-**[rsschool-cv](https://st-arseniy.github.io/rsschool-cv/)**
 # Arseni Hadalau 
 ## Contacts
 * **Discord:** *Arseniy (@St-Arseniy)*
