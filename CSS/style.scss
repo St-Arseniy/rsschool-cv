@@ -1,0 +1,32 @@
+@import "null.scss";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: rgba(250, 237, 212, 1);
+}
+
+/*@media screen and (max-width: 1200px) {
+    .wrapper {
+        width: 760px;
+    }
+}*/
+
+
+.page {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
+
+
+.header {
+    font-family: "Montserrat";
+    background-color: bisque;
+    color: chocolate;
+}
