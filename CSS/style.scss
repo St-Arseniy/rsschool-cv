@@ -5,7 +5,7 @@ body {
 }
 
 .wrapper {
-    max-width: 1440px;
+    max-width: 1280px;
     margin: 0 auto;
     background-color: rgba(250, 237, 212, 1);
     
@@ -28,53 +28,95 @@ body {
     min-height: calc(100vh - 50px);
 }
 
-.section {
-    min-width: 200px;
+.page__section_left {
+    max-width: 380px;
     background-color: black;
     color:whitesmoke;
-    
 }
-.container {
+
+
+.leftpart {
+}
+.leftpart__image {
+}
+.img {
+}
+.leftpart__title {
+}
+.leftpart__name {
+}
+.leftpary__profession {
+}
+.leftpart__article {
+}
+.article {
+}
+.article__title {
+}
+.article__text {
+}
+.leftpart__contacts {
+}
+.contacts {
+}
+.contacts__title {
+}
+.contacts__list {
+}
+.leftpart__skills {
+}
+.skills {
+}
+.skills__title {
+}
+.skills__list {
+}
+
+.page__section_right {
     display: flex;
     flex-direction: column;
     width: 100%;
     
 }
 
+.rightpart {
+    
+}
 
-.header {
+
+.rightpart__header {
     font-family: "Montserrat";
     background-color: bisque;
     color: chocolate;
 }
 
-.header__nav {
+.rightpart__nav {
 	display: flex;
 	justify-content: flex-end; /* разместим справа */
   
 	background: #6e9cc3;
 }
 
-.header__nav a {
+.rightpart__nav a {
 	color:#fff;
 	padding:15px 10px;
 	text-decoration:none;
 	text-align:center;
 }
-.header__nav a:hover { background:#5c8db7; }
+.rightpart__nav a:hover { background:#5c8db7; }
 
 /* меньше 800px */
 @media all and (max-width: 800px) {
-	.header__nav { justify-content: space-around; }
-	.header__nav a{ flex-grow:1; /* растягиваться на всю ширину */ }
+	.rightpart__nav { justify-content: space-around; }
+	.rightpart__nav a{ flex-grow:1; /* растягиваться на всю ширину */ }
 }
 
 /* меньше 500px */
 @media all and (max-width: 500px) {
-	.header__nav { flex-direction: column; }
+	.rightpart__nav { flex-direction: column; }
 }
 
-.main {
+.rightpart__main {
    background-color:yellow;
    min-height: calc(100vh - 50px - 39px);  
 }
