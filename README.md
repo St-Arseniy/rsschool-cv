@@ -1,1 +1,1 @@
-# rsschool-cv
+# https://St-Arseniy.github.io/rsschool-cv/
